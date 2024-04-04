@@ -1,0 +1,10 @@
+../as5600/as5600.c:19:6:AS5600_Init	8	static
+../as5600/as5600.c:23:6:AS5600_WriteRegister	32	static
+../as5600/as5600.c:33:9:AS5600_ReadRegister	48	static
+../as5600/as5600.c:41:9:AS5600_GetStatus	80	static
+../as5600/as5600.c:45:10:AS5600_GetAngle	88	static
+../as5600/as5600.c:87:10:AS5600_SetStartPosition	16	static
+../as5600/as5600.c:96:10:AS5600_SetStopPosition	16	static
+../as5600/as5600.c:105:6:AS5600_BurnPosition	8	static
+../as5600/as5600.c:113:6:AS5600_VerifyBurnCommand	8	static
+../as5600/as5600.c:140:6:AS5600_ResetI2C	8	static
