@@ -33,7 +33,7 @@ void AS5600_WriteRegister(uint8_t Reg, uint8_t Data) {
 uint8_t AS5600_ReadRegister(uint8_t Reg, I2C_HandleTypeDef __i2cHandleTypeDef) {
 	uint8_t DataRead = 0;
 	halStatus = HAL_I2C_Mem_Read(&__i2cHandleTypeDef, (AS5600_ADDR << 1), Reg, 1, &DataRead,
-			1, 100);
+			1, 300);
 	return DataRead;
 }
 
